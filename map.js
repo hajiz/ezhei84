@@ -27,7 +27,7 @@ cityCoordinates[losangeles] = ll(34.052234, -118.243685);
 cityCoordinates[orangecounty] = ll(33.717471, -117.831143);
 cityCoordinates[newjersey] = ll(40.486216, -74.451819);
 cityCoordinates[newyork] = ll(40.712784, -74.005941);
-cityCoordinates[newark] = ll(40.735657, -74.172367);
+cityCoordinates[newark] = ll(39.683723, -75.749657);
 cityCoordinates[shahinshahr] = ll(32.873455, 51.545747);
 cityCoordinates[ardakan] = ll(32.306283, 54.016042);
 
