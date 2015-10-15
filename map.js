@@ -14,6 +14,7 @@ var newyork = "New York";
 var newark = "Newark";
 var shahinshahr = "Shahinshahr";
 var ardakan = "Ardakan";
+var calgary = "Calgary";
 
 function ll (lat, lng) {
 	return new LatLng(lat, lng);
@@ -30,6 +31,7 @@ cityCoordinates[newyork] = ll(40.712784, -74.005941);
 cityCoordinates[newark] = ll(39.683723, -75.749657);
 cityCoordinates[shahinshahr] = ll(32.873455, 51.545747);
 cityCoordinates[ardakan] = ll(32.306283, 54.016042);
+cityCoordinates[calgary] = ll(51.048615, -114.070846);
 
 function o (name, location, married) {
 	return {
@@ -80,7 +82,18 @@ var kids = [
 	o("Hamid Hosseini", esfahan, married),
 	o("Arash Mehrkesh", tehran, married),
 	o("Masoud Seyyedana", esfahan, married),
-	o("Armin Mazaheri", tehran, married)
+	o("Armin Mazaheri", tehran, married),
+	o("Abbas Amini", esfahan, married),
+	o("Mohammad Amin HajiAhmadi", esfahan, single),
+	o("Ehsan Akkafi", esfahan, single),
+	o("Amir Hossein Shafiyioun", esfahan, single),
+	o("Hamed Shakoori", esfahan, single),
+	o("Bijan Jamali", esfahan, single),
+	o("Mohammad Hossein Khalegifar", esfahan, single),
+	o("Mohammad Keivanara", tehran, married),
+	o("Hasan Nikayin", tehran, married),
+	o("Sobhan Iranmanesh", calgary, single),
+	o("Milad Khosravi", calgary, married)
 ];
 
 
